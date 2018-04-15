@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+
+}
+
+.left {
+    width: 25%;
+    background-color: #dddddd;
+}
+
+ul{list-style-type: none;}
+
+
+.right {
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    /*display: table;*/
+    clear: both;
+}
+
+.content{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display:none;
+    /*visibility: hidden;*/
+}
+.selected{
+    background-color: #ffff00;
+}
+#root{
+}
+#floorplan{
+}
+#inventoryavailability{
+}
+#eventschedule{
+}
+#sponsors{
+}
+#checkout{
+}
+#registrationform{
+}
+#sponsorform{
+}
+#workshop{
+}
+#currentlycheckedout{
+}
+#handlecheckouts{
+}
+#handlereturns{
+}
+#projectsubmission{
+}
+#scoresubmission{
+}
+#editinventory{
+}
+#invupdate{
+}
+#invdelete{
+}
+#invinsert{
+}
+#donateequipment{
+}
+#approveparticipant{
+}
+#setpermissions{
+}
+#sethorg{
+}
+#setsponsorrep{
+}
+#createsponsorrepaccount{
+}
+#createhorgaccount{
+}
+table, th, td {
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
